@@ -25,15 +25,15 @@
       justify-content: center;
     }
 
-    nav a {
+    nav li a {
+      display: block;
+      padding: 15px 20px;
       color: white;
       text-decoration: none;
-      padding: 15px 20px;
-      display: block;
       font-weight: bold;
     }
 
-    nav a:hover {
+    nav li a:hover {
       background: #4a6fa5;
     }
 
@@ -41,7 +41,80 @@
     header {
       background: #4a6fa5;
       color: white;
-      text-align: center;
       padding: 30px;
+      text-align: center;
     }
 
+    /* ===== GALLERY ===== */
+    .gallery {
+      max-width: 800px;
+      margin: 30px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 25px;
+      padding: 20px;
+    }
+
+    .frame {
+      background: white;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+
+    .frame img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .frame p {
+      margin: 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ✅ MENU -->
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="graphics.html">Graphics</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ✅ HEADER -->
+  <header>
+    <h1>Graphics</h1>
+    <p>My visual design work</p>
+  </header>
+
+  <!-- ✅ IMAGE GALLERY -->
+  <div class="gallery">
+
+    <div class="frame">
+      <img src="../images/Law.png" alt="Law Graphic">
+      <p>Law Graphic</p>
+    </div>
+
+    <div class="frame">
+      <img src="../images/Logo.png" alt="Logo Design">
+      <p>Logo Design</p>
+    </div>
+
+    <div class="frame">
+      <img src="../images/Mixed.png" alt="Mixed Media Graphic">
+      <p>Mixed Media</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
