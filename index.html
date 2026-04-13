@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>About Me: Emerson Hall</title>
-  images/Logo.png
-
+  <link rel="icon" type="image/png" href="images/Logo.png">
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -15,37 +14,6 @@
       line-height: 1.6;
     }
 
-    /* ===== NAVIGATION MENU ===== */
-    nav {
-      background: #2f4f7f;
-      padding: 0 20px;
-    }
-
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
-
-    nav li {
-      margin: 0;
-    }
-
-    nav a {
-      display: block;
-      padding: 15px 20px;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      background: #4a6fa5;
-    }
-
-    /* ===== HEADER ===== */
     header {
       background: #4a6fa5;
       color: white;
@@ -83,19 +51,8 @@
 </head>
 
 <body>
-
-  <!-- ===== TOP MENU ===== -->
-  <nav>
-    <ul>
-      <li>index.htmlHome</a></li>
-      <li>about.htmlAbout Me</a></li>
-      <li>projects.htmlProjects</a></li>
-      <li>contact.htmlContact</a></li>
-    </ul>
-  </nav>
-
   <header>
-    images/Law.png
+    <img src="images/Law.png" alt="Logo" style="max-width: 200px; height: auto; display: block; margin: 0 auto 15px;">
     <h1>About Me</h1>
   </header>
 
@@ -135,9 +92,8 @@
   <section>
     <h2>Audio</h2>
     <audio controls>
-      audio/SocialIssueRemix.mp3
+      <source src="audio/SocialIssueRemix.mp3" type="audio/mpeg">
     </audio>
   </section>
-
 </body>
 </html>
