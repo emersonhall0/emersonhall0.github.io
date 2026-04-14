@@ -15,7 +15,6 @@
       line-height: 1.6;
     }
 
-    /* ===== NAV MENU ===== */
     nav {
       background: #2f4f7f;
     }
@@ -28,7 +27,7 @@
       justify-content: center;
     }
 
-    nav ul li a {
+    nav li a {
       display: block;
       padding: 15px 20px;
       color: white;
@@ -36,11 +35,10 @@
       font-weight: bold;
     }
 
-    nav ul li a:hover {
+    nav li a:hover {
       background: #4a6fa5;
     }
 
-    /* ===== HEADER ===== */
     header {
       background: #4a6fa5;
       color: white;
@@ -50,14 +48,7 @@
 
     header img {
       max-width: 200px;
-      height: auto;
-      display: block;
-      margin: 0 auto 15px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
+      margin-bottom: 15px;
     }
 
     section {
@@ -68,42 +59,24 @@
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-
-    h2 {
-      color: #4a6fa5;
-      margin-top: 0;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    ol {
-      padding-left: 20px;
-    }
   </style>
 </head>
 
 <body>
 
-  <!-- ✅ MENU (ONLY ADDITION) -->
+  <!-- ✅ WORKING MENU -->
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="pages/about.html">About Me</a></li>
-      <li><a href="pages/projects.html">Projects</a></li>
-      <li><a href="pages/Graphics.html">Graphics</a></li>
-      <li><a href="pages/contact.html">Contact</a></li>
+      <li><a href="pages/graphics.html">Graphics</a></li>
     </ul>
   </nav>
 
-  <!-- ✅ ORIGINAL HEADER -->
   <header>
-    <img src="images/Law.png" alt="Logo">
+    <img src="images/Law.png" alt="Law Logo">
     <h1>About Me</h1>
   </header>
 
-  <!-- ✅ ALL YOUR ORIGINAL CONTENT -->
   <section>
     <h2>Introduction</h2>
     <p>My name is Emerson Hall. I am a grade 10 student at Frontenac Secondary School.</p>
@@ -137,12 +110,10 @@
     </ol>
   </section>
 
-  <!-- ✅ YOUR AUDIO, RESTORED -->
   <section>
     <h2>Audio</h2>
     <audio controls>
       <source src="audio/SocialIssueRemix.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
     </audio>
   </section>
 
