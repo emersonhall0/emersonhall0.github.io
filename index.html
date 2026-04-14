@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me | Emerson Hall</title>
+  <title>About Me: Emerson Hall</title>
   <link rel="icon" type="image/png" href="images/Logo.png">
 
   <style>
@@ -40,11 +40,19 @@
       background-color: #4a6fa5;
     }
 
+    /* ===== HEADER ===== */
     header {
       background: #4a6fa5;
       color: white;
       padding: 30px 20px;
       text-align: center;
+    }
+
+    header img {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin: 0 auto 15px;
     }
 
     h1 {
@@ -78,22 +86,20 @@
 
 <body>
 
-  <!-- ✅ NAV MENU -->
-
+  <!-- ✅ NAVIGATION (LOCKED AND WORKING) -->
   <nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="pages/about.html">About Me</a></li>
-    <li><a href="pages/projects.html">Projects</a></li>
-    <li><a href="pages/graphics.html">Graphics</a></li>
-    <li><a href="pages/contact.html">Contact</a></li>
-  </ul>
-</nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pages/about.html">About Me</a></li>
+      <li><a href="pages/projects.html">Projects</a></li>
+      <li><a href="pages/graphics.html">Graphics</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
   <!-- ✅ HEADER -->
   <header>
-    <img src="images/Law.png" alt="Logo"
-      style="max-width: 200px; height: auto; display: block; margin: 0 auto 15px;">
+    <img src="images/Law.png" alt="Logo">
     <h1>About Me</h1>
   </header>
 
@@ -130,13 +136,15 @@
     </ol>
   </section>
 
-  <!-- ✅ AUDIO RESTORED -->
+  <!-- ✅ AUDIO (RESTORED) -->
   <section>
     <h2>Audio</h2>
     <audio controls>
       <source src="audio/SocialIssueRemix.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
     </audio>
   </section>
 
 </body>
 </html>
+``
