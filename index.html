@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me: Emerson Hall</title>
+  <title>About Me | Emerson Hall</title>
   <link rel="icon" type="image/png" href="images/Logo.png">
 
   <style>
@@ -17,7 +17,7 @@
 
     /* ===== NAV MENU ===== */
     nav {
-      background: #2f4f7f;
+      background-color: #2f4f7f;
     }
 
     nav ul {
@@ -28,7 +28,7 @@
       justify-content: center;
     }
 
-    nav li a {
+    nav ul li a {
       display: block;
       padding: 15px 20px;
       color: white;
@@ -36,8 +36,8 @@
       font-weight: bold;
     }
 
-    nav li a:hover {
-      background: #4a6fa5;
+    nav ul li a:hover {
+      background-color: #4a6fa5;
     }
 
     header {
@@ -78,20 +78,21 @@
 
 <body>
 
-  <!-- ✅ NAV MENU (FIXED & VISIBLE) -->
-  
-<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="pages/projects.html">Projects</a></li>
-    <li><a href="pages/graphics.html">Graphics</a></li>
-    <li><a href="pages/contact.html">Contact</a></li>
-  </ul>
-</nav>
+  <!-- ✅ NAV MENU -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pages/about.html">About Me</a></li>
+      <li><a href="pages/projects.html">Projects</a></li>
+      <li><a href="pages/graphics.html">Graphics</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
   <!-- ✅ HEADER -->
   <header>
     <img src="images/Law.png" alt="Logo"
-         style="max-width: 200px; height: auto; display: block; margin: 0 auto 15px;">
+      style="max-width: 200px; height: auto; display: block; margin: 0 auto 15px;">
     <h1>About Me</h1>
   </header>
 
@@ -128,6 +129,7 @@
     </ol>
   </section>
 
+  <!-- ✅ AUDIO RESTORED -->
   <section>
     <h2>Audio</h2>
     <audio controls>
